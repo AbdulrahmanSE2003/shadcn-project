@@ -16,11 +16,10 @@ import {
 import { toast } from "sonner";
 
 const values = {
-  id: 1,
-  userName: "john doe",
-  email: "john.doe@gmail.com",
-  phone: "+1 234 5678",
-  location: "New York, NY",
+  userName: "abdulrahman.saad",
+  email: "abdulrahman.saad2303@gmail.com",
+  phone: "+20 111 678 912",
+  location: "Alexandria, EG",
 };
 
 const userData = Object.entries(values);

@@ -47,7 +47,7 @@ const items = [
 const AppSidebar = () => {
   return (
     <Sidebar collapsible="icon">
-      <SidebarHeader>
+      <SidebarHeader className=" py-2.25">
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
