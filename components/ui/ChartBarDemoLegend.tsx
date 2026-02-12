@@ -35,7 +35,7 @@ export function ChartBarDemoLegend() {
   return (
     <div className="flex flex-col gap-3 w-full">
       <CardHeading>Total Revenue</CardHeading>
-      <ChartContainer config={chartConfig} className="min-h-50 w-full">
+      <ChartContainer config={chartConfig} className="min-h-50 w-full h-full">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
           <XAxis

@@ -40,7 +40,7 @@ const chartConfig = {
 export function ChartRadarDots() {
   return (
     <div className="w-full">
-      <CardHeading>Devices Stats</CardHeading>
+      <CardHeading>Visitors Stats</CardHeading>
 
       <Card>
         <CardHeader className="items-center">
