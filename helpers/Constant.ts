@@ -237,3 +237,48 @@ export const users = [
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena",
   },
 ];
+
+export const events = [
+  {
+    id: 1,
+    title: "Team Sync — Project Alpha",
+    time: "10:00 AM",
+    category: "Meeting",
+    color: "blue",
+  },
+  {
+    id: 2,
+    title: "Design Review — UI/UX Kit",
+    time: "11:30 AM",
+    category: "Review",
+    color: "purple",
+  },
+  {
+    id: 3,
+    title: "Lunch with Stakeholders",
+    time: "01:00 PM",
+    category: "Personal",
+    color: "emerald",
+  },
+  {
+    id: 4,
+    title: "Product Launch Briefing",
+    time: "03:00 PM",
+    category: "Launch",
+    color: "amber",
+  },
+  {
+    id: 5,
+    title: "Weekly Code Cleanup",
+    time: "04:30 PM",
+    category: "Maintenance",
+    color: "rose",
+  },
+  {
+    id: 6,
+    title: "Backend Deployment",
+    time: "06:00 PM",
+    category: "System",
+    color: "zinc",
+  },
+] as const;
