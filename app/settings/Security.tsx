@@ -22,7 +22,7 @@ const Security = () => {
 
   return (
     <TabsContent value="security">
-      <Card className="border-none bg-primary-foreground shadow-sm">
+      <Card className="bg-primary-foreground shadow-lg border-zinc-200 dark:border-zinc-800">
         <CardHeader>
           <CardTitle>Security Preferences</CardTitle>
           <CardDescription>Keep your account safe and secure.</CardDescription>

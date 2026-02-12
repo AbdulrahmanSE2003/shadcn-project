@@ -14,7 +14,7 @@ import { NotificationItem } from "./NotificationItem";
 const Notification = () => {
   return (
     <TabsContent value="notifications">
-      <Card className="border-none bg-primary-foreground shadow-sm">
+      <Card className="bg-primary-foreground shadow-lg border-zinc-200 dark:border-zinc-800">
         <CardHeader>
           <CardTitle>Notification Settings</CardTitle>
           <CardDescription>Manage how you receive alerts.</CardDescription>

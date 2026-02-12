@@ -14,7 +14,7 @@ import { TabsContent } from "@/components/ui/tabs";
 const Profile = () => {
   return (
     <TabsContent value="profile">
-      <Card className="border-none bg-primary-foreground shadow-sm">
+      <Card className="bg-primary-foreground shadow-lg border-zinc-200 dark:border-zinc-800">
         <CardHeader>
           <CardTitle>Public Profile</CardTitle>
           <CardDescription>

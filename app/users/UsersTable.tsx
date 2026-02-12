@@ -24,7 +24,7 @@ import { MoreHorizontal } from "lucide-react";
 const UsersTable = () => {
   return (
     <div className="w-full overflow-x-auto">
-      <div className="min-w-200 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-primary-foreground overflow-hidden shadow-sm">
+      <div className="min-w-200 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-primary-foreground overflow-hidden shadow-lg">
         <Table>
           <TableHeader className="bg-zinc-50 dark:bg-zinc-900/50">
             <TableRow>

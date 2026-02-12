@@ -1,4 +1,4 @@
-"use client"; // لازم عشان الـ hooks
+"use client";
 import { useState, useEffect } from "react";
 import { Info, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -6,11 +6,10 @@ import { Badge } from "@/components/ui/badge";
 const ProjectDisclaimer = () => {
   const [isVisible, setIsVisible] = useState(true);
 
-  // هيختفي لوحده بعد 6 ثواني
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 6000);
+    }, 8000);
     return () => clearTimeout(timer);
   }, []);
 
