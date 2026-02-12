@@ -17,6 +17,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import CardHeading from "../CardHeading";
 
 export const description = "A radial chart with stacked sections";
 
@@ -38,8 +39,7 @@ export function ChartRadialStacked() {
 
   return (
     <div>
-      <h1 className="text-lg font-medium mb-6">Total Visitors</h1>
-
+      <CardHeading>Total Visitors</CardHeading>
       <Card className="flex flex-col">
         <CardHeader className="items-center pb-0">
           <CardTitle>Radial Chart - Stacked</CardTitle>

@@ -30,7 +30,7 @@ export const Navbar = () => {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Avatar className={`cursor-pointer`}>
-              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarImage src="/user.jpg" className={`object-center`} />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </DropdownMenuTrigger>

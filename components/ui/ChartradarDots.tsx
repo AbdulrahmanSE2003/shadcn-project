@@ -17,6 +17,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import CardHeading from "../CardHeading";
 
 export const description = "A radar chart with dots";
 
@@ -39,7 +40,7 @@ const chartConfig = {
 export function ChartRadarDots() {
   return (
     <div className="w-full">
-      <h1 className="text-lg font-medium mb-6">Devices Stats</h1>
+      <CardHeading>Devices Stats</CardHeading>
 
       <Card>
         <CardHeader className="items-center">

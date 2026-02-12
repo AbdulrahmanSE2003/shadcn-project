@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Card, CardContent, CardFooter, CardTitle } from "./card";
 import { Badge } from "./badge";
+import CardHeading from "../CardHeading";
 
 const popularContent = [
   {
@@ -93,7 +94,7 @@ const CardList = ({ title }: { title: string }) => {
     title === "Popular Content" ? popularContent : latestTransactions;
   return (
     <div className="w-full">
-      <h1 className="text-lg font-medium mb-6">{title}</h1>
+      <CardHeading>{title}</CardHeading>
       <div className="flex flex-col gap-2">
         {list.map((item) => (
           <Card

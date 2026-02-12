@@ -17,6 +17,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import CardHeading from "../CardHeading";
 
 const chartData = [
   { month: "Jan", desktop: 2500, mobile: 1200 },
@@ -41,9 +42,7 @@ const chartConfig = {
 export function ChartAreaGradient() {
   return (
     <div className="w-full flex flex-col gap-3">
-      <h1 className="text-xl font-semibold tracking-tight px-1">
-        Analytics Overview
-      </h1>
+      <CardHeading>Analytics Overview</CardHeading>
 
       <Card className="flex flex-col border-none bg-transparent shadow-none w-full">
         <CardHeader className="items-center pb-4">

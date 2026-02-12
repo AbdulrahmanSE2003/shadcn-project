@@ -9,6 +9,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
+import CardHeading from "../CardHeading";
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },
@@ -33,7 +34,7 @@ const chartConfig = {
 export function ChartBarDemoLegend() {
   return (
     <div className="flex flex-col gap-3 w-full">
-      <h1 className="text-lg font-medium mb-6">Total Revenue</h1>
+      <CardHeading>Total Revenue</CardHeading>
       <ChartContainer config={chartConfig} className="min-h-50 w-full">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
