@@ -16,7 +16,9 @@ import { SidebarTrigger } from "./ui/sidebar";
 
 export const Navbar = () => {
   return (
-    <nav className={`flex justify-between items-center px-4 py-2 border-b`}>
+    <nav
+      className={`flex justify-between items-center px-4 py-2 border-b 4 max-h-13 sticky top-0 z-10 bg-background`}
+    >
       {/* Left */}
       <SidebarTrigger />
       {/* right */}
