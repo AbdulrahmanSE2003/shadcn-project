@@ -4,6 +4,7 @@ import {
   Calendar,
   ChevronUp,
   Command,
+  HandCoins,
   Home,
   Plus,
   Projector,
@@ -40,7 +41,7 @@ const items = [
   { title: "Home", href: "/", icon: Home },
   { title: "Users", href: "/users", icon: UsersIcon },
   { title: "Calendar", href: "/calendar", icon: Calendar },
-  { title: "Search", href: "/search", icon: Search },
+  { title: "Payments", href: "/payments", icon: HandCoins },
   { title: "Settings", href: "/settings", icon: Settings },
 ];
 
@@ -75,32 +76,6 @@ const AppSidebar = () => {
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
-        <SidebarGroup>
-          <SidebarGroupLabel>Projects</SidebarGroupLabel>
-          <SidebarGroupAction>
-            <Plus /> <span className="sr-only">Add Project</span>
-          </SidebarGroupAction>
-
-          <SidebarGroupContent>
-            <SidebarMenu>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild>
-                  <Link href={"/"}>
-                    <Projector />
-                    <span>See All Projects</span>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild>
-                  <Link href={"/"}>
-                    <Plus /> <span>Add Project</span>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
