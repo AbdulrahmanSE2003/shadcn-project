@@ -1,4 +1,5 @@
 import CardHeading from "@/components/CardHeading";
+import EditUser from "@/components/EditUser";
 import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
@@ -119,7 +120,7 @@ const page = () => {
         >
           <div className={`flex justify-between items-center`}>
             <CardHeading className={`mb-0`}>User Information</CardHeading>
-            <Button className={`cursor-pointer`}>Edit User</Button>
+            <EditUser />
           </div>
 
           <div className={`p-2 pl-0 items-center gap-3 flex flex-col`}>

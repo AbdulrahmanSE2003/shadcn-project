@@ -2,15 +2,15 @@
 
 import {
   Calendar,
-  ChartBarIncreasing,
   ChevronUp,
+  Command,
   Home,
-  Inbox,
   Plus,
   Projector,
   Search,
   Settings,
   User2,
+  UsersIcon,
 } from "lucide-react";
 import {
   Sidebar,
@@ -35,12 +35,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
-import Image from "next/image";
-import { useTheme } from "next-themes";
 
 const items = [
   { title: "Home", href: "/", icon: Home },
-  { title: "Inbox", href: "/inbox", icon: Inbox },
+  { title: "Users", href: "/users", icon: UsersIcon },
   { title: "Calendar", href: "/calendar", icon: Calendar },
   { title: "Search", href: "/search", icon: Search },
   { title: "Settings", href: "/settings", icon: Settings },
@@ -54,8 +52,8 @@ const AppSidebar = () => {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href={"/"}>
-                <Image src={"/logo.png"} alt="logo" width={23} height={28} />
-                <span>Mnmlst Shad</span>
+                <Command />
+                <span>Mnmlst</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>

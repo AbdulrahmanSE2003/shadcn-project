@@ -123,18 +123,6 @@ export function ChartAreaGradient() {
             </AreaChart>
           </ChartContainer>
         </CardContent>
-        <CardFooter className="pt-2">
-          <div className="flex w-full items-start gap-2 text-sm border-t pt-4 border-border/50">
-            <div className="grid gap-1">
-              <div className="flex items-center gap-2 leading-none font-semibold text-emerald-500">
-                Up by 18.4% this quarter <TrendingUp className="h-4 w-4" />
-              </div>
-              <div className="text-muted-foreground text-xs">
-                Based on verified transaction data
-              </div>
-            </div>
-          </div>
-        </CardFooter>
       </Card>
     </div>
   );
